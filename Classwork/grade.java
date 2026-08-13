@@ -1,6 +1,10 @@
+import java.util.Scanner;   
 public class grade {
     public static void main(String[] args) {
-        int marks=-85;
+        int marks=85;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter marks: ");
+        marks=sc.nextInt();
         char grade;
         if(marks>=90 && marks<=100) {
             grade='A';
